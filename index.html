@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>Batul Udaipurwala | AI Engineer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%236ea8ff'/%3E%3Ctext x='50' y='67' font-size='50' text-anchor='middle' fill='white' font-weight='bold'%3EB%3C/text%3E%3C/svg%3E">
+    
+    <link rel="stylesheet" href="styles.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Custom Cursor - Larger Size (hidden on mobile) -->
+    <div class="custom-cursor"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+
+    <!-- Page Transition Overlay -->
+    <div class="page-transition"></div>
+
+    <!-- Mobile Menu Toggle Button -->
+    <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="glass-nav">
+        <div class="container nav-flex">
+            <a href="#" class="logo">
+                <span class="logo-main">BATUL</span><span class="logo-dot">.U</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Stack</a></li>
+                <li><a href="#experience" class="nav-link">Journey</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#publication" class="nav-link">Publication</a></li>
+                <li><a href="https://drive.google.com/file/d/11bW8Cw4FbHZYlnupyU1s0Cj6wzOK0tR2/view?usp=sharing" target="_blank" class="btn-resume">Resume</a></li>
+                <li><a href="#contact" class="btn-nav">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO with 3D Model -->
+    <header class="hero" id="about">
+        <div class="animated-bg"></div>
+        <div class="container grid-2">
+            <div class="hero-text">
+                <h1>
+                    Engineering <span class="text-gradient">Intelligence</span><br>
+                    Through Data & AI.
+                </h1>
+                <p>
+                    Data Operations Analyst at Media.net with a background in
+                    AI, Machine Learning and Analytics. I build systems that
+                    simplify complexity, uncover insights at scale, and create
+                    meaningful real-world impact through intelligent technology.
+                </p>
+            </div>
+            <div class="hero-visual">
+                <model-viewer 
+                    src="https://modelviewer.dev/shared-assets/models/RobotExpressive.glb"
+                    alt="3D Character"
+                    auto-rotate
+                    camera-controls
+                    camera-orbit="0deg 75deg 3m"
+                    interaction-prompt="none"
+                    exposure="1.2"
+                    shadow-intensity="0.7"
+                    style="width: 100%; height: 100%;">
+                </model-viewer>
+            </div>
+        </div>
+    </header>
+
+    <!-- STATS -->
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-card">
+                <h2>100M+</h2>
+                <p>Rows Analyzed</p>
+            </div>
+            <div class="stat-card">
+                <h2>1</h2>
+                <p>Springer Publication</p>
+            </div>
+            <div class="stat-card">
+                <h2>6+</h2>
+                <p>Global Certifications</p>
+            </div>
+            <div class="stat-card">
+                <h2>92.3%</h2>
+                <p>Medical AI Accuracy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-title center">
+                <p>TECH STACK</p>
+                <h2>Technologies Behind Intelligent Systems.</h2>
+            </div>
+            <div class="stack-grid">
+                <div class="stack-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Languages</h3>
+                    <p>Python, SQL, R</p>
+                </div>
+                <div class="stack-card">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>AI / ML</h3>
+                    <p>TensorFlow, Scikit-Learn, Keras, Pandas, NumPy</p>
+                </div>
+                <div class="stack-card">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3>Analytics</h3>
+                    <p>Power BI, Tableau, Excel (Advanced), Visual Storytelling.</p>
+                </div>
+                <div class="stack-card">
+                    <i class="fa-solid fa-cloud"></i>
+                    <h3>Tools & Platforms</h3>
+                    <p>Docker, Git, Google Cloud Platform (GCP), Jupyter Notebook, PyCharm, VS Code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section id="experience" class="section bg-alt">
+        <div class="container">
+            <div class="section-title center">
+                <p>THE JOURNEY</p>
+                <h2>Building Systems. Creating Impact.</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-meta">
+                        <h3>Media.net</h3>
+                        <p>Data Operations Analyst • 2025 – Present</p>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Analyzed datasets exceeding 10M+ rows to uncover traffic anomalies and user patterns.</li>
+                            <li>Reduced erroneous traffic filtration by nearly 30% through impact analysis initiatives.</li>
+                            <li>Worked on platform compliance systems to mitigate revenue risk.</li>
+                            <li>Improved downstream revenue attribution through data validation workflows.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-meta">
+                        <h3>Techplement</h3>
+                        <p>Python Developer Intern • 2024</p>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Built scalable data extraction and processing pipelines.</li>
+                            <li>Implemented robust validation and error handling systems.</li>
+                            <li>Worked with BeautifulSoup, Pandas and NumPy for large-scale processing.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-meta">
+                        <h3>Navodita Infotech</h3>
+                        <p>Machine Learning Intern • 2024</p>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Developed machine learning models for predictive analytics.</li>
+                            <li>Performed large-scale dataset analysis for strategic decision-making.</li>
+                            <li>Enhanced model efficiency through optimized preprocessing techniques.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-title center">
+                <p>MY WORK</p>
+                <h2>AI & Data Solutions for Real Problems.</h2>
+            </div>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="pathology_report_summarizer.jpg" alt="Pathology Report Summarizer">
+                    </div>
+                    <div class="project-info">
+                        <h3>Pathology Report Summarizer</h3>
+                        <p>AI-powered medical interpretation system designed to simplify pathology reports for non-medical users.</p>
+                        <div class="project-meta">
+                            <span>Microsoft Phi-3 Vision</span>
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>NLP</span>
+                        </div>
+                        <ul>
+                            <li>Reduced interpretation time by 60%.</li>
+                            <li>Generated patient-friendly summaries customized by age and gender.</li>
+                            <li>Integrated disease prediction models for general health insights.</li>
+                            <li>Research paper published in Springer Nature.</li>
+                            <li>DOI: 10.1007/978-981-96-7545-6_4</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="surveillance_system.jpeg" alt="Smart Surveillance System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Surveillance System</h3>
+                        <p>Real-time intelligent surveillance system using computer vision for human motion detection and automated monitoring.</p>
+                        <div class="project-meta">
+                            <span>YOLOv8</span>
+                            <span>OpenCV</span>
+                            <span>Python</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <ul>
+                            <li>Triggered recording within 0.2 seconds of human detection.</li>
+                            <li>Improved motion detection accuracy using YOLOv8 evaluation.</li>
+                            <li>Automated timestamp-based footage storage system.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PUBLICATION -->
+    <section id="publication" class="section bg-alt">
+        <div class="container">
+            <div class="section-title center">
+                <p>PEER-REVIEWED RESEARCH</p>
+                <h2>Springer Publication.</h2>
+            </div>
+            <div class="publication-card">
+                <div class="publication-icon">
+                    <i class="fa-solid fa-scroll"></i>
+                </div>
+                <div class="publication-details">
+                    <h3>Leveraging Machine Learning for <span class="text-gradient">Patient-Friendly Medical Reports</span></h3>
+                    <p class="publication-conference">
+                        <i class="fa-solid fa-building-columns"></i> Proceedings of the Second Congress on Control, Robotics, and Mechatronics (CRM 2025) · Springer
+                    </p>
+                    <div class="publication-meta-grid">
+                        <span class="meta-badge"><i class="fa-regular fa-calendar"></i> 02 January 2026</span>
+                        <span class="meta-badge"><i class="fa-solid fa-microchip"></i> LLM-based Architecture</span>
+                        <span class="meta-badge"><i class="fa-solid fa-chart-line"></i> 92.3% Accuracy</span>
+                    </div>
+                    <div class="abstract-summary">
+                        <p>An AI-powered system that transforms complex pathology reports into patient-friendly, personalized summaries. Using advanced LLMs with 92.3% accuracy, it generates age and gender-specific interpretations, bridging the communication gap between medical professionals and patients while reducing anxiety and enabling informed healthcare decisions.</p>
+                    </div>
+                    <div class="publication-doi">
+                        <i class="fa-solid fa-link"></i> DOI: 
+                        <a href="https://doi.org/10.1007/978-981-96-7545-6_4" target="_blank">https://doi.org/10.1007/978-981-96-7545-6_4</a>
+                        <span class="doi-badge"><i class="fa-regular fa-circle-check"></i> Springer Indexed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title center">
+                <p>ACADEMIC FOUNDATION</p>
+                <h2>The Learning Journey.</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-meta">
+                        <h3>B.Tech Computer Engineering</h3>
+                        <p>2021 – 2025</p>
+                    </div>
+                    <div class="timeline-content">
+                        <p>K.J. Somaiya Institute of Technology &nbsp;•&nbsp; CGPA 8.74</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-meta">
+                        <h3>High School</h3>
+                        <p>2019 – 2021</p>
+                    </div>
+                    <div class="timeline-content">
+                        <p>KC College &nbsp;•&nbsp; 92.5%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-meta">
+                        <h3>School Education</h3>
+                    </div>
+                    <div class="timeline-content">
+                        <p>The Alexandra Girls' English Institution</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section bg-alt">
+        <div class="container">
+            <div class="section-title center">
+                <p>GLOBAL CERTIFICATIONS</p>
+                <h2>Continuous Learning & Upskilling.</h2>
+            </div>
+            <div class="cert-grid">
+                <a href="https://drive.google.com/file/d/14wHAhV9eB-1csoJnZjvg8Zi0LJO-Owkc/view?usp=drive_link" class="cert-btn">Google Data Analytics</a>
+                <a href="https://drive.google.com/file/d/1ABSsIKvY-czPi8aunWTRcZjjzgPTNTtn/view?usp=drive_link" class="cert-btn">Google Business Intelligence</a>
+                <a href="https://drive.google.com/file/d/1JOtJia4UO2pEFTY2eEXDe3XVZo4SAdPs/view?usp=drive_link" class="cert-btn">Prompt Engineering for ChatGPT</a>
+                <a href="https://drive.google.com/file/d/1EcmymUF64RnqfLcbZZh9RVE2ZsJpSNeI/view?usp=drive_link" class="cert-btn">MS SQL Certification</a>
+                <a href="https://drive.google.com/file/d/1flnrFOaNfUnxqIQ5MCxJ067Wrlcr3_uO/view?usp=drive_link" class="cert-btn">Forage Data Analytics Internship</a>
+                <a href="https://drive.google.com/file/d/1mEvQ4Q63gRyQFF2-wP8t749S43xq2Orr/view?usp=drive_link" class="cert-btn">Data Science Simulation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section id="contact" class="footer-section">
+        <div class="container text-center">
+            <h2>
+                Building Something
+                <span class="text-gradient">Extraordinary?</span>
+            </h2>
+            <p>Let's Do It Together.</p>
+            <p>Mumbai, India &nbsp;•&nbsp; Open to global opportunities and collaborations.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/batul-udaipurwala-b64b9b25a" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Batul-udaipurwala" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:batulkdbm@gmail.com" title="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
