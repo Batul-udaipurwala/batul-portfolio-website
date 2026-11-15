@@ -1,364 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-    <title>Batul Udaipurwala | AI Engineer</title>
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%236ea8ff'/%3E%3Ctext x='50' y='67' font-size='50' text-anchor='middle' fill='white' font-weight='bold'%3EB%3C/text%3E%3C/svg%3E">
-    
-    <link rel="stylesheet" href="styles.css" />
-
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10130f">
+  <meta name="description" content="Batul Udaipurwala is a Data Analyst turning complex data into clear decisions, reliable systems, and measurable business impact.">
+  <title>Batul Udaipurwala — Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- Custom Cursor - Larger Size (hidden on mobile) -->
-    <div class="custom-cursor"></div>
-
-    <!-- Scroll Progress Bar -->
-    <div class="progress-container">
-        <div class="progress-bar"></div>
-    </div>
-
-    <!-- Page Transition Overlay -->
-    <div class="page-transition"></div>
-
-    <!-- Mobile Menu Toggle Button -->
-    <div class="mobile-menu-btn">
-        <i class="fas fa-bars"></i>
-    </div>
-
-    <!-- NAVBAR -->
-    <nav class="glass-nav">
-        <div class="container nav-flex">
-            <a href="#" class="logo">
-                <span class="logo-main">BATUL</span><span class="logo-dot">.U</span>
-            </a>
-            <ul class="nav-links">
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Stack</a></li>
-                <li><a href="#experience" class="nav-link">Journey</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#publication" class="nav-link">Publication</a></li>
-                <li><a href="https://drive.google.com/file/d/1tKJrY7vI5ErCzn51VudtrV3UL0U9bBHP/view?usp=drive_link" target="_blank" class="btn-resume">Resume</a></li>
-                <li><a href="#contact" class="btn-nav">Connect</a></li>
-            </ul>
-        </div>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="wordmark" href="#home" aria-label="Batul Udaipurwala home">BU<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#work">Work</a><a href="#projects">Projects</a><a href="#education">Education</a>
+        <a href="Batul_Udaipurwala_Resume.pdf" download>Resume <i class="fa-solid fa-download"></i></a>
+        <a class="nav-contact" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=batulkdbm%40gmail.com" target="_blank" rel="noreferrer">Let’s talk <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
     </nav>
-
-    <!-- HERO with 3D Model -->
-    <header class="hero" id="about">
-        <div class="animated-bg"></div>
-        <div class="container grid-2">
-            <div class="hero-text">
-                <h1>
-                    Engineering <span class="text-gradient">Intelligence</span><br>
-                    Through Data & AI.
-                </h1>
-                <p>
-                    Data Operations Analyst at Media.net with a background in
-                    AI, Machine Learning and Analytics. I build systems that
-                    simplify complexity, uncover insights at scale, and create
-                    meaningful real-world impact through intelligent technology.
-                </p>
-            </div>
-            <div class="hero-visual">
-                <model-viewer 
-                    src="https://modelviewer.dev/shared-assets/models/RobotExpressive.glb"
-                    alt="3D Character"
-                    auto-rotate
-                    camera-controls
-                    camera-orbit="0deg 75deg 3m"
-                    interaction-prompt="none"
-                    exposure="1.2"
-                    shadow-intensity="0.7"
-                    style="width: 100%; height: 100%;">
-                </model-viewer>
-            </div>
-        </div>
-    </header>
-
-    <!-- STATS -->
-    <section class="stats-section">
-        <div class="container stats-grid">
-            <div class="stat-card">
-                <h2>100M+</h2>
-                <p>Rows Analyzed</p>
-            </div>
-            <div class="stat-card">
-                <h2>1</h2>
-                <p>Springer Publication</p>
-            </div>
-            <div class="stat-card">
-                <h2>6+</h2>
-                <p>Global Certifications</p>
-            </div>
-            <div class="stat-card">
-                <h2>92.3%</h2>
-                <p>Medical AI Accuracy</p>
-            </div>
-        </div>
+  </header>
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="live-dot"></span> DATA ANALYST <span class="eyebrow-line"></span> MUMBAI, INDIA</div>
+        <h1>Clarity from<br><span class="accent">complex data.</span></h1>
+        <p class="hero-lede">I turn complex data into clear decisions and better outcomes.</p>
+        <p class="hero-about">Data Operations Analyst at Media.net. Fluent in SQL and Python, curious about every number that looks off, and always looking for the root cause.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <i class="fa-solid fa-arrow-down"></i></a><a class="button button-quiet" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=batulkdbm%40gmail.com" target="_blank" rel="noreferrer">Get in touch <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+        <div class="hero-social"><a href="https://linkedin.com/in/batul-udaipurwala-b64b9b25a" target="_blank" rel="noreferrer">LINKEDIN <i class="fa-solid fa-arrow-up-right-from-square"></i></a><a href="https://github.com/Batul-udaipurwala" target="_blank" rel="noreferrer">GITHUB <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Abstract animated data visualization">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="orbit-core"><span class="core-ring"></span><span class="core-text">DATA<br><b>→</b><br>IMPACT</span></div>
+        <span class="orbit-node node-a"><i class="fa-solid fa-chart-line"></i></span><span class="orbit-node node-b"><i class="fa-solid fa-database"></i></span><span class="orbit-node node-c"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+        <div class="art-label label-top">SIGNAL FOUND <span>●</span></div><div class="art-label label-bottom">INSIGHT → ACTION</div>
+        <div class="floating-metric"><span>RESEARCH</span><strong>Springer</strong><small>Nature · 2026</small></div>
+      </div>
+      <a class="scroll-cue" href="#impact"><span></span> SCROLL TO EXPLORE</a>
     </section>
-
-    <!-- STACK -->
-    <section id="skills" class="section">
-        <div class="container">
-            <div class="section-title center">
-                <p>TECH STACK</p>
-                <h2>Technologies Behind Intelligent Systems.</h2>
-            </div>
-            <div class="stack-grid">
-                <div class="stack-card">
-                    <i class="fa-solid fa-code"></i>
-                    <h3>Languages</h3>
-                    <p>Python, SQL, R</p>
-                </div>
-                <div class="stack-card">
-                    <i class="fa-solid fa-brain"></i>
-                    <h3>AI / ML</h3>
-                    <p>TensorFlow, Scikit-Learn, Keras, Pandas, NumPy</p>
-                </div>
-                <div class="stack-card">
-                    <i class="fa-solid fa-chart-line"></i>
-                    <h3>Analytics</h3>
-                    <p>Power BI, Tableau, Excel (Advanced), Visual Storytelling.</p>
-                </div>
-                <div class="stack-card">
-                    <i class="fa-solid fa-cloud"></i>
-                    <h3>Tools & Platforms</h3>
-                    <p>Docker, Git, Google Cloud Platform (GCP), Jupyter Notebook, PyCharm, VS Code.</p>
-                </div>
-            </div>
-        </div>
+    <section class="impact-strip" id="impact"><div class="container impact-grid">
+      <article class="impact-item"><span class="impact-number">100M+</span><span class="impact-label">rows analyzed each day</span></article>
+      <article class="impact-item"><span class="impact-number">03</span><span class="impact-label">end-to-end projects delivered</span></article>
+      <article class="impact-item"><span class="impact-number">01</span><span class="impact-label">peer-reviewed Springer Nature publication</span></article>
+      <article class="impact-item"><span class="impact-number">06</span><span class="impact-label">professional certifications</span></article>
+    </div></section>
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><div><span class="section-kicker">01 / THE APPROACH</span><h2>Curious by nature.<br><span class="muted">Precise by practice.</span></h2></div><p>I work across the full analytics loop: understand the question, trace the data, build a dependable answer, and make it useful to the people acting on it.</p></div>
+      <div class="principles-grid">
+        <article class="principle-card reveal"><span class="card-index">01</span><i class="fa-solid fa-magnifying-glass-chart"></i><h3>Find the real signal</h3><p>Trace anomalies back to the source. Fix the cause, not just the chart.</p></article>
+        <article class="principle-card reveal"><span class="card-index">02</span><i class="fa-solid fa-gears"></i><h3>Automate the repeatable</h3><p>Build AI assisted workflows that reduce manual steps and make reporting dependable.</p></article>
+        <article class="principle-card reveal"><span class="card-index">03</span><i class="fa-solid fa-people-arrows-left-right"></i><h3>Make insight actionable</h3><p>Translate complex metrics into clear decisions for teams and leadership.</p></article>
+      </div>
     </section>
-
-    <!-- JOURNEY -->
-    <section id="experience" class="section bg-alt">
-        <div class="container">
-            <div class="section-title center">
-                <p>THE JOURNEY</p>
-                <h2>Building Systems. Creating Impact.</h2>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-meta">
-                        <h3>Media.net</h3>
-                        <p>Data Operations Analyst • 2025 – Present</p>
-                    </div>
-                    <div class="timeline-content">
-                        <ul>
-                            <li>Analyzed datasets exceeding 10M+ rows to uncover traffic anomalies and user patterns.</li>
-                            <li>Reduced erroneous traffic filtration by nearly 30% through impact analysis initiatives.</li>
-                            <li>Worked on platform compliance systems to mitigate revenue risk.</li>
-                            <li>Improved downstream revenue attribution through data validation workflows.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-meta">
-                        <h3>Techplement</h3>
-                        <p>Python Developer Intern • 2024</p>
-                    </div>
-                    <div class="timeline-content">
-                        <ul>
-                            <li>Built scalable data extraction and processing pipelines.</li>
-                            <li>Implemented robust validation and error handling systems.</li>
-                            <li>Worked with BeautifulSoup, Pandas and NumPy for large-scale processing.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-meta">
-                        <h3>Navodita Infotech</h3>
-                        <p>Machine Learning Intern • 2024</p>
-                    </div>
-                    <div class="timeline-content">
-                        <ul>
-                            <li>Developed machine learning models for predictive analytics.</li>
-                            <li>Performed large-scale dataset analysis for strategic decision-making.</li>
-                            <li>Enhanced model efficiency through optimized preprocessing techniques.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="section work-section" id="work"><div class="container">
+      <div class="section-heading reveal"><div><span class="section-kicker">02 / EXPERIENCE</span><h2>Work with<br><span class="muted">real-world stakes.</span></h2></div><p>From data quality to advertiser health, I build the analysis and tools teams rely on to make better calls.</p></div>
+      <article class="experience-card reveal"><div class="experience-head"><div><span class="company-tag"><span class="live-dot"></span> CURRENT ROLE</span><h3>Data Operations Analyst</h3><p class="company-name">Media.net <span>·</span> Mumbai, India</p></div><span class="date-pill">JUN 2025 — PRESENT</span></div>
+        <div class="experience-highlights"><div class="highlight"><span class="highlight-icon"><i class="fa-solid fa-chart-area"></i></span><div><h4>Analytics at scale</h4><p>Sole owner of the Microsoft Clarity analytics project handling 100M+ rows per day. Diagnosed signal and page-rendering issues, reducing them from 30% to 0.98% at the source; assess A/B test impact on user behavior.</p></div></div>
+        <div class="highlight"><span class="highlight-icon"><i class="fa-solid fa-robot"></i></span><div><h4>Automation that frees up time</h4><p>Built AI agent workflows with Claude Code, Codex, Cursor, and Airflow, taking report generation from 4–5 hours to near zero.</p></div></div>
+        <div class="highlight"><span class="highlight-icon"><i class="fa-solid fa-arrow-trend-up"></i></span><div><h4>Revenue and advertiser health</h4><p>Built anomaly detection that cut erroneous traffic filtering by ~30%; prioritized 456 low-profit advertisers into a focused top 100 for churn-control action.</p></div></div>
+        <div class="highlight"><span class="highlight-icon"><i class="fa-solid fa-shield-halved"></i></span><div><h4>Trustworthy systems</h4><p>Led cross-functional governance work aligning internal systems with third-party mandates, safeguarding ~15% of revenue for a key entity. Built leadership dashboards and regular quality checks.</p></div></div>
+        <div class="highlight"><span class="highlight-icon"><i class="fa-solid fa-users"></i></span><div><h4>Smarter targeting</h4><p>Co-built keyword-context relevance scoring and analyzed user demographics and behavior to support more personalized experiences.</p></div></div></div>
+      </article>
+      <div class="internships"><article class="intern-card reveal"><span class="intern-date">JUN — JUL 2024</span><i class="fa-solid fa-code"></i><h3>Python Developer Intern</h3><p class="company-name">Techplement</p><p>Built automated data extraction and cleaning pipelines with validation using Pandas, NumPy, and BeautifulSoup.</p></article><article class="intern-card reveal"><span class="intern-date">MAY — JUN 2024</span><i class="fa-solid fa-brain"></i><h3>Machine Learning Intern</h3><p class="company-name">Navodita Infotech</p><p>Developed and evaluated machine learning models on large datasets to surface patterns for data driven decisions.</p></article></div>
+    </div></section>
+    <section class="section container" id="projects"><div class="section-heading reveal"><div><span class="section-kicker">03 / SELECTED PROJECTS</span><h2>Curiosity, put<br><span class="muted">to work.</span></h2></div><p>Applied analytics, machine learning, and language models for problems that matter.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-feature reveal"><div class="project-image pathology-image"><img src="pathology_report_summarizer.jpg" alt="Pathology report summarization project interface"><span class="project-number">01 / HEALTH AI</span><span class="image-orbit"></span></div><div class="project-body"><div class="project-topline"><span>2024 — 2025</span><a href="https://doi.org/10.1007/978-981-96-7545-6_4" target="_blank" rel="noreferrer" aria-label="Read Springer publication"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><h3>Pathology Report Summarizer</h3><p>Turning complex pathology reports into patient-friendly summaries using an end-to-end AI system built with LangChain, RAG, and Microsoft Phi-3.</p><div class="project-result"><strong>92.3%</strong><span>accuracy<br>~10% above traditional OCR</span></div><div class="tags"><span>LangChain</span><span>RAG</span><span>Phi-3</span><span>Published · Springer Nature</span></div></div></article>
+        <article class="project-card reveal"><div class="project-image crop-image"><div class="crop-visual"><span class="crop-sun"></span><i class="fa-solid fa-seedling"></i><i class="fa-solid fa-seedling"></i><i class="fa-solid fa-seedling"></i><i class="fa-solid fa-seedling"></i></div><span class="project-number">02 / APPLIED ML</span></div><div class="project-body"><div class="project-topline"><span>JAN — MAY 2024</span><span class="project-mini-icon"><i class="fa-solid fa-arrow-trend-up"></i></span></div><h3>Multiple Crop Recommendation</h3><p>Machine learning to match crop choices to conditions and support better informed planting decisions.</p><div class="project-result"><strong>99%</strong><span>model accuracy<br>10,000+ data points</span></div><div class="tags"><span>Python</span><span>Scikit-Learn</span><span>TensorFlow</span></div></div></article>
+        <article class="project-card reveal"><div class="project-image surveillance-image"><img src="surveillance_system.jpeg" alt="Smart surveillance computer vision project"><span class="project-number">03 / COMPUTER VISION</span><span class="scan-line"></span></div><div class="project-body"><div class="project-topline"><span>JUL — NOV 2023</span><span class="project-mini-icon"><i class="fa-solid fa-eye"></i></span></div><h3>Smart Surveillance System</h3><p>Compared YOLOv8 and frame subtraction to detect human motion and trigger automatic recording.</p><div class="project-result"><strong>0.5s</strong><span>to trigger recording<br>40% faster footage retrieval</span></div><div class="tags"><span>YOLOv8</span><span>OpenCV</span><span>Python</span></div></div></article>
+      </div>
     </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
-        <div class="container">
-            <div class="section-title center">
-                <p>MY WORK</p>
-                <h2>AI & Data Solutions for Real Problems.</h2>
-            </div>
-            <div class="project-grid">
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="pathology_report_summarizer.jpg" alt="Pathology Report Summarizer">
-                    </div>
-                    <div class="project-info">
-                        <h3>Pathology Report Summarizer</h3>
-                        <p>AI-powered medical interpretation system designed to simplify pathology reports for non-medical users.</p>
-                        <div class="project-meta">
-                            <span>Microsoft Phi-3 Vision</span>
-                            <span>Python</span>
-                            <span>Machine Learning</span>
-                            <span>NLP</span>
-                        </div>
-                        <ul>
-                            <li>Reduced interpretation time by 60%.</li>
-                            <li>Generated patient-friendly summaries customized by age and gender.</li>
-                            <li>Integrated disease prediction models for general health insights.</li>
-                            <li>Research paper published in Springer Nature.</li>
-                            <li>DOI: 10.1007/978-981-96-7545-6_4</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="surveillance_system.jpeg" alt="Smart Surveillance System">
-                    </div>
-                    <div class="project-info">
-                        <h3>Smart Surveillance System</h3>
-                        <p>Real-time intelligent surveillance system using computer vision for human motion detection and automated monitoring.</p>
-                        <div class="project-meta">
-                            <span>YOLOv8</span>
-                            <span>OpenCV</span>
-                            <span>Python</span>
-                            <span>Computer Vision</span>
-                        </div>
-                        <ul>
-                            <li>Triggered recording within 0.2 seconds of human detection.</li>
-                            <li>Improved motion detection accuracy using YOLOv8 evaluation.</li>
-                            <li>Automated timestamp-based footage storage system.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="section toolkit-section"><div class="container"><div class="section-heading reveal"><div><span class="section-kicker">04 / TOOLKIT</span><h2>Tools for the<br><span class="muted">whole data journey.</span></h2></div><p>A practical stack for analysis, automation, machine learning, and clear communication.</p></div><div class="toolkit-grid">
+      <article class="toolkit-card reveal"><i class="fa-solid fa-chart-simple"></i><h3>Analytics</h3><div class="tags"><span>SQL / MS SQL</span><span>Python</span><span>Power BI</span><span>Excel</span><span>Microsoft Clarity</span></div></article>
+      <article class="toolkit-card reveal"><i class="fa-solid fa-wand-magic-sparkles"></i><h3>Automation & AI</h3><div class="tags"><span>AI agents</span><span>Airflow</span><span>LangChain</span><span>RAG</span><span>FastAPI</span><span>Docker</span></div></article>
+      <article class="toolkit-card reveal"><i class="fa-solid fa-chart-line"></i><h3>Analysis & ML</h3><div class="tags"><span>Clustering</span><span>Anomaly detection</span><span>A/B testing</span><span>Scikit-Learn</span><span>TensorFlow</span><span>Keras</span><span>Matplotlib</span></div></article>
+      <article class="toolkit-card reveal"><i class="fa-solid fa-code-branch"></i><h3>Working style</h3><div class="tags"><span>Data quality</span><span>Root cause analysis</span><span>Dashboards</span><span>Stakeholder reporting</span><span>Process governance</span></div></article>
+    </div></div></section>
+    <section class="section container" id="education"><div class="section-heading reveal"><div><span class="section-kicker">05 / FOUNDATION</span><h2>Built on a strong<br><span class="muted">technical base.</span></h2></div><p>Computer engineering gave me a systems view. Continuous learning keeps it sharp.</p></div><div class="foundation-grid"><article class="education-card reveal"><span class="section-kicker">EDUCATION</span><div class="education-entry"><span class="education-year">2021 — 2025</span><h3>B.Tech, Computer Engineering</h3><p>K.J. Somaiya Institute of Technology, Mumbai</p><strong>CGPA 8.74</strong></div></article><article class="education-card reveal"><span class="section-kicker">CERTIFICATIONS</span><ul class="cert-list">
+        <li><a href="https://drive.google.com/file/d/14wHAhV9eB-1csoJnZjvg8Zi0LJO-Owkc/view?usp=drive_link" target="_blank" rel="noreferrer">Google Data Analytics <span>↗</span></a></li>
+        <li><a href="https://drive.google.com/file/d/1ABSsIKvY-czPi8aunWTRcZjjzgPTNTtn/view?usp=drive_link" target="_blank" rel="noreferrer">Google Business Intelligence <span>↗</span></a></li>
+        <li><a href="https://drive.google.com/file/d/1JOtJia4UO2pEFTY2eEXDe3XVZo4SAdPs/view?usp=drive_link" target="_blank" rel="noreferrer">Prompt Engineering for ChatGPT <span>↗</span></a></li>
+        <li><a href="https://drive.google.com/file/d/1EcmymUF64RnqfLcbZZh9RVE2ZsJpSNeI/view?usp=drive_link" target="_blank" rel="noreferrer">MS SQL Certification <span>↗</span></a></li>
+        <li><a href="https://drive.google.com/file/d/1flnrFOaNfUnxqIQ5MCxJ067Wrlcr3_uO/view?usp=drive_link" target="_blank" rel="noreferrer">Forage Data Analytics Internship <span>↗</span></a></li>
+        <li><a href="https://drive.google.com/file/d/1mEvQ4Q63gRyQFF2-wP8t749S43xq2Orr/view?usp=drive_link" target="_blank" rel="noreferrer">Data Science Simulation <span>↗</span></a></li>
+      </ul></article></div>
+      <article class="publication-banner reveal"><div><span class="section-kicker">RESEARCH / SPRINGER NATURE · 2026</span><h3>Leveraging Machine Learning for Patient-Friendly Medical Reports</h3><p>Proceedings of the Second Congress on Control, Robotics, and Mechatronics</p></div><a href="https://doi.org/10.1007/978-981-96-7545-6_4" target="_blank" rel="noreferrer">Read publication <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article>
     </section>
-
-    <!-- PUBLICATION -->
-    <section id="publication" class="section bg-alt">
-        <div class="container">
-            <div class="section-title center">
-                <p>PEER-REVIEWED RESEARCH</p>
-                <h2>Springer Publication.</h2>
-            </div>
-            <div class="publication-card">
-                <div class="publication-icon">
-                    <i class="fa-solid fa-scroll"></i>
-                </div>
-                <div class="publication-details">
-                    <h3>Leveraging Machine Learning for <span class="text-gradient">Patient-Friendly Medical Reports</span></h3>
-                    <p class="publication-conference">
-                        <i class="fa-solid fa-building-columns"></i> Proceedings of the Second Congress on Control, Robotics, and Mechatronics (CRM 2025) · Springer
-                    </p>
-                    <div class="publication-meta-grid">
-                        <span class="meta-badge"><i class="fa-regular fa-calendar"></i> 02 January 2026</span>
-                        <span class="meta-badge"><i class="fa-solid fa-microchip"></i> LLM-based Architecture</span>
-                        <span class="meta-badge"><i class="fa-solid fa-chart-line"></i> 92.3% Accuracy</span>
-                    </div>
-                    <div class="abstract-summary">
-                        <p>An AI-powered system that transforms complex pathology reports into patient-friendly, personalized summaries. Using advanced LLMs with 92.3% accuracy, it generates age and gender-specific interpretations, bridging the communication gap between medical professionals and patients while reducing anxiety and enabling informed healthcare decisions.</p>
-                    </div>
-                    <div class="publication-doi">
-                        <i class="fa-solid fa-link"></i> DOI: 
-                        <a href="https://doi.org/10.1007/978-981-96-7545-6_4" target="_blank">https://doi.org/10.1007/978-981-96-7545-6_4</a>
-                        <span class="doi-badge"><i class="fa-regular fa-circle-check"></i> Springer Indexed</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section class="section">
-        <div class="container">
-            <div class="section-title center">
-                <p>ACADEMIC FOUNDATION</p>
-                <h2>The Learning Journey.</h2>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-meta">
-                        <h3>B.Tech Computer Engineering</h3>
-                        <p>2021 – 2025</p>
-                    </div>
-                    <div class="timeline-content">
-                        <p>K.J. Somaiya Institute of Technology &nbsp;•&nbsp; CGPA 8.74</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-meta">
-                        <h3>High School</h3>
-                        <p>2019 – 2021</p>
-                    </div>
-                    <div class="timeline-content">
-                        <p>KC College &nbsp;•&nbsp; 92.5%</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-meta">
-                        <h3>School Education</h3>
-                    </div>
-                    <div class="timeline-content">
-                        <p>The Alexandra Girls' English Institution</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CERTIFICATIONS -->
-    <section class="section bg-alt">
-        <div class="container">
-            <div class="section-title center">
-                <p>GLOBAL CERTIFICATIONS</p>
-                <h2>Continuous Learning & Upskilling.</h2>
-            </div>
-            <div class="cert-grid">
-                <a href="https://drive.google.com/file/d/14wHAhV9eB-1csoJnZjvg8Zi0LJO-Owkc/view?usp=drive_link" class="cert-btn">Google Data Analytics</a>
-                <a href="https://drive.google.com/file/d/1ABSsIKvY-czPi8aunWTRcZjjzgPTNTtn/view?usp=drive_link" class="cert-btn">Google Business Intelligence</a>
-                <a href="https://drive.google.com/file/d/1JOtJia4UO2pEFTY2eEXDe3XVZo4SAdPs/view?usp=drive_link" class="cert-btn">Prompt Engineering for ChatGPT</a>
-                <a href="https://drive.google.com/file/d/1EcmymUF64RnqfLcbZZh9RVE2ZsJpSNeI/view?usp=drive_link" class="cert-btn">MS SQL Certification</a>
-                <a href="https://drive.google.com/file/d/1flnrFOaNfUnxqIQ5MCxJ067Wrlcr3_uO/view?usp=drive_link" class="cert-btn">Forage Data Analytics Internship</a>
-                <a href="https://drive.google.com/file/d/1mEvQ4Q63gRyQFF2-wP8t749S43xq2Orr/view?usp=drive_link" class="cert-btn">Data Science Simulation</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <section id="contact" class="footer-section">
-        <div class="container text-center">
-            <h2>
-                Building Something
-                <span class="text-gradient">Extraordinary?</span>
-            </h2>
-            <p>Let's Do It Together.</p>
-            <p>Mumbai, India &nbsp;•&nbsp; Open to global opportunities and collaborations.</p>
-            <div class="social-links">
-                <a href="https://linkedin.com/in/batul-udaipurwala-b64b9b25a" title="LinkedIn">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/Batul-udaipurwala" title="GitHub">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="mailto:batulkdbm@gmail.com" title="Email">
-                    <i class="fa-solid fa-envelope"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
-    <script src="script.js"></script>
+    <section class="contact-section"><div class="container contact-inner reveal"><span class="section-kicker">HAVE A GOOD QUESTION?</span><h2>Let’s turn your<br><span class="accent">data into direction.</span></h2><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=batulkdbm%40gmail.com" target="_blank" rel="noreferrer" class="button button-primary">Say hello <i class="fa-solid fa-arrow-up-right-from-square"></i></a><p class="contact-details"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=batulkdbm%40gmail.com" target="_blank" rel="noreferrer">batulkdbm@gmail.com</a> <span>·</span> Mumbai, India <span>·</span> Open to opportunities and collaborations</p><div class="contact-links"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=batulkdbm%40gmail.com" target="_blank" rel="noreferrer">EMAIL</a><a href="https://linkedin.com/in/batul-udaipurwala-b64b9b25a" target="_blank" rel="noreferrer">LINKEDIN</a><a href="https://github.com/Batul-udaipurwala" target="_blank" rel="noreferrer">GITHUB</a></div></div></section>
+  </main>
+  <footer class="footer container"><a class="wordmark" href="#home">BU<span>.</span></a><span>Designed with curiosity. © <span id="year"></span> Batul Udaipurwala</span><a href="Batul_Udaipurwala_Resume.pdf" download>DOWNLOAD RESUME ↓</a><a href="#home">BACK TO TOP ↑</a></footer>
+  <div class="flight-rail" aria-hidden="true"><span class="flight-trail"></span><span class="flight-signal"><i class="fa-solid fa-chart-simple"></i></span></div>
+  <script src="script.js"></script>
 </body>
 </html>
